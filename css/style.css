@@ -1,0 +1,230 @@
+ 
+/*fonts start*/
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf);
+    font-family: PlayfairDisplay-Black;
+}
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf);
+    font-family: PlayfairDisplay-Bold;
+}
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf);
+    font-family: PlayfairDisplay-Italic;
+}
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+    font-family: PlayfairDisplay-Regular;
+
+}
+@font-face{
+	src:url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+	font-family: Ubuntu-Light;
+}
+@font-face{
+	src:url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
+	font-family: Inconsolata-Regular;
+}
+
+/*fonts end*/
+/*Common Start*/
+body{
+	margin:0;
+	padding: 0;
+	font-family:PlayfairDisplay-Regular;
+	font-size:16px ;
+	font-weight: 400;
+	color:#626262;
+}
+/*Common End*/
+/*Header Start*/
+header{
+	/*border: 1px solid blue;*/
+	padding: 20px 0px;
+}
+.container{
+	margin:0 auto; 
+	width: 90%;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 13px;
+	width: 13%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+	/*border:1px solid red;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin:0 50px;
+	padding: 5px 3px; 
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0px; 
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #222222;
+}
+
+/*Header End*/
+
+/*Banner Start*/
+
+.banner{}
+.b_image{}
+.b_image img{
+	width: 100%;
+}
+/*Banner End*/
+
+/*Getaway Start*/
+.getaway{
+	margin: 80px 0 100px;
+}
+.container2{
+	margin:0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.g_content{
+	  
+}
+.c_light{
+	margin:0; 
+	font-family:Ubuntu-Light;
+	font-size:14px ;
+	font-weight: 300;
+	color:#c7c1b6;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0px 30px;
+	font-size: 30px;
+	font-weight: 400;  
+}
+.c_text{
+	margin: 0 0 40px;
+	line-height: 25px;
+}
+/*Getaway End*/
+
+/*Blog Start*/
+.blog{
+	padding: 80px 0 100px;
+}
+.b_wrapper{
+	overflow: hidden;
+}
+.single{
+	width: 47%;
+	float: left;
+	margin-bottom: 50px;
+}
+.single:nth-child(even){
+	margin-left: 6%; 
+}
+.s_image{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.single p{}
+/*Blog End*/
+
+/*News Start*/
+.news{
+	background-color: #ddd;
+	min-height: 400px;
+}
+/*News End*/
+
+/*button Load More Start*/
+.load{
+	padding: 100px 0 100px;
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	background-color: transparent;
+	border: 1px solid #626262;
+	transition: .3s;
+}
+.load button:hover{
+	color: white;
+	background-color: #626262;
+}
+/*button Load More End*/
+
+/*Footer Start*/
+footer{
+	background-color: #f0f0f0;
+	padding:20px 0px 25px; 
+}
+.f_first{
+	width: 25%;
+	float: left;
+	/*border:1px solid yellow;*/
+}
+.f_first ul{
+	float: left;
+	padding-left: 0px;
+}
+.f_first ul li{
+	list-style: none;
+	float: left;
+}
+.f_first ul li a{
+	text-decoration: none;
+	padding-right: 20px;
+	color: black;
+}
+
+.f_last{
+	width:20%;
+	float: right;
+	/*border:1px solid yellow;*/
+}
+.f_last ul{
+	float: right;
+	padding-right: 0px;
+}
+.f_last ul li{
+	list-style: none;
+	float: left;
+	color: black;
+}
+.f_last ul li a{
+	text-decoration: none;
+	padding-left: 25px;
+	color: black;
+
+}
+.f_last ul li a img{}
+/*Footer End*/
